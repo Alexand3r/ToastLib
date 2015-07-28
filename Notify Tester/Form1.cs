@@ -20,7 +20,7 @@ namespace Notify_Tester
         private void button1_Click(object sender, EventArgs e)
         {
             ToastLib.Notify notif = new ToastLib.Notify();
-            notif.show(textBox1.Text);
+            notif.Show(textBox1.Text);
         }
     }
 }
